@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <dialog id="start-game-dialog">
+        <form action="" id="start-form">
+            <h3>Enter Player Name</h3>
+            <p>
+                <label for="player1-name">Player 1(X):</label>
+                <input type="text" id="player1-name" placeholder="Player 1">
+            </p>
+
+            <p>
+                <label for="player2-name">Player 2 (O):</label>
+                <input type="text" id="player2-name" placeholder="Player 2" required>
+            </p>
+            <button type="submit">Start Game</button>
+        </form>
+    </dialog>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="reset-button">Reset</div>
+    <div id="grid-container"></div>
+    <div id="game-message"></div>
+</body>
+</html>
